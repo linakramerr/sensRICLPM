@@ -4,4 +4,5 @@ package to conduct sensitivity analysis of RI-CLPM results to unmodeled measurem
 To install package type: 
 
 install.packages("devtools")
+
 devtools::install_github("linakramerr/sensRICLPM")
