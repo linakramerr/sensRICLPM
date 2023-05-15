@@ -9,6 +9,11 @@ devtools::install_github("linakramerr/sensRICLPM")
 
 # example:
 
-The package includes the amotivation.rds data set. Type:
+The package includes the amotivation.Rdata data set. Type:
 
-sensRICLPM(sensRICLPM::amotivation)
+load(~/data/amotivation.RData) # to load data
+
+example <- sensRICLPM(sensRICLPM::amotivation) # to run sensitvity analysis on data
+
+example$p2 # to obtain sensitvity plots
+example$outputtable # to obtain all sensitivity analysis results
