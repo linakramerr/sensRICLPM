@@ -6,3 +6,9 @@ To install package type:
 install.packages("devtools")
 
 devtools::install_github("linakramerr/sensRICLPM")
+
+# example:
+
+The package includes the amotivation.rds data set. Type:
+
+sensRICLPM(sensRICLPM::amotivation)
