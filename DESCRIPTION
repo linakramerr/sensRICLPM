@@ -1,12 +1,11 @@
 Package: sensRICLPM
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Sensitivity Analysis of RI-CLPM to Measurement Error
 Version: 0.1.0
 Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Maintainer: Lina Kramer <https://github.com/linakramerr>
+Description: The sensRICLPM package produces plots and tables for sensitivtiy analysis of RI-CLPM results to unmodeled measurement error.
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
